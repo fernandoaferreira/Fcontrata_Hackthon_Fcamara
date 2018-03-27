@@ -1,0 +1,23 @@
+<ion-content padding class="bodyGeral">
+    <img src="assets/imgs/logoFcamara.png">
+    <br>
+    <div class="header">
+        <h2>Pesquisa</h2>
+    </div>
+            <ion-card>
+
+            
+            <ion-fab right top>
+              
+            </ion-fab>
+          
+            <ion-item *ngFor="let candidato of json">
+              <h1>{{ candidato.firstName }}</h1>
+              <h2><a href="{{ candidato.siteStandardProfileRequest.url }}">Linkedin</a></h2>
+              <p>{{ candidato.keywords }}</p>
+              <h2>{{ candidato.score }}</h2>
+            </ion-item>
+          
+          </ion-card>
+ 
+</ion-content>

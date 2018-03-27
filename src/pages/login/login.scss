@@ -1,0 +1,45 @@
+page-login {
+
+    .img{
+        padding: 20px;
+    }
+
+    .box {
+        background: steelblue;
+        margin-left: 40px;
+        width: 80%;
+        height: 30%;
+        top: 30%;
+        position: fixed;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+
+    .box h2{
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+
+    }
+
+    .box .inputBox {
+        padding: 10px 15px;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        
+        
+    }
+
+    .btnLogin {
+        margin-left: 150px;
+        width:100px;
+        top: 63%;
+        position: fixed;
+        padding: 20px;
+        border-radius: 13px;
+    }
+
+    
+
+}
